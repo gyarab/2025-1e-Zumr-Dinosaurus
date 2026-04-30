@@ -73,7 +73,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             
             dinoY += dinoYSpeed;
             if (dinoY < 250) {
-                dinoYSpeed += 1; // gravitace
+                dinoYSpeed += 1; 
             } else {
                 dinoY = 250;
                 dinoYSpeed = 0;
